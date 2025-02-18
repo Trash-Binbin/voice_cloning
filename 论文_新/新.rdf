@@ -1,0 +1,406 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="https://www.hindawi.com/journals/cin/2022/6707304/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1687-5273,%201687-5265"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qiu</foaf:surname>
+                        <foaf:givenName>Zeyu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tang</foaf:surname>
+                        <foaf:givenName>Jun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Yaxin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Jiaxin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bai</foaf:surname>
+                        <foaf:givenName>Xishan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cao</foaf:surname>
+                        <foaf:givenName>Wenming</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_288"/>
+        <dc:title>A Voice Cloning Method Based on the Improved HiFi-GAN Model</dc:title>
+        <dcterms:abstract>With the aim of adapting a source Text to Speech (TTS) model to synthesize a personal voice by using a few speech samples from the target speaker, voice cloning provides a specific TTS service. Although the Tacotron 2-based multi-speaker TTS system can implement voice cloning by introducing a d-vector into the speaker encoder, the speaker characteristics described by the d-vector cannot allow for the voice information of the entire utterance. This affects the similarity of voice cloning. As a vocoder, WaveNet sacrifices speech generation speed. To balance the relationship between model parameters, inference speed, and voice quality, a voice cloning method based on improved HiFi-GAN has been proposed in this paper. (1) To improve the feature representation ability of the speaker encoder, the x-vector is used as the embedding vector that can characterize the target speaker. (2) To improve the performance of the HiFi-GAN vocoder, the input Mel spectrum is processed by a competitive multiscale convolution strategy. (3) The one-dimensional depth-wise separable convolution is used to replace all standard one-dimensional convolutions, significantly reducing the model parameters and increasing the inference speed. The improved HiFi-GAN model remarkably reduces the number of vocoder model parameters by about 68.58% and boosts the model’s inference speed. The inference speed on the GPU and CPU has increased by 11.84% and 30.99%, respectively. Voice quality has also been marginally improved as MOS increased by 0.13 and PESQ increased by 0.11. The improved HiFi-GAN model exhibits outstanding performance and remarkable compatibility in the voice cloning task. Combined with the x-vector embedding, the proposed model achieves the highest score of all the models and test sets.</dcterms:abstract>
+        <dc:date>2022-10-11</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.hindawi.com/journals/cin/2022/6707304/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-15 13:58:38</dcterms:dateSubmitted>
+        <dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights>
+        <bib:pages>1-12</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1687-5273,%201687-5265">
+        <prism:volume>2022</prism:volume>
+        <dc:title>Computational Intelligence and Neuroscience</dc:title>
+        <dc:identifier>DOI 10.1155/2022/6707304</dc:identifier>
+        <dcterms:alternative>Computational Intelligence and Neuroscience</dcterms:alternative>
+        <dc:identifier>ISSN 1687-5273, 1687-5265</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_288">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/288/Qiu 等 - 2022 - A Voice Cloning Method Based on the Improved HiFi-GAN Model.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2009.14399">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Mingyang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenName>Yi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhao</foaf:surname>
+                        <foaf:givenName>Li</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Haizhou</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_294"/>
+        <link:link rdf:resource="#item_292"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Transfer Learning from Speech Synthesis to Voice Conversion with Non-Parallel Training Data</dc:title>
+        <dcterms:abstract>This paper presents a novel framework to build a voice conversion (VC) system by learning from a text-to-speech (TTS) synthesis system, that is called TTS-VC transfer learning. We ﬁrst develop a multi-speaker speech synthesis system with sequence-to-sequence encoder-decoder architecture, where the encoder extracts robust linguistic representations of text, and the decoder, conditioned on target speaker embedding, takes the context vectors and the attention recurrent network cell output to generate target acoustic features. We take advantage of the fact that TTS system maps input text to speaker independent context vectors, and reuse such a mapping to supervise the training of latent representations of an encoder-decoder voice conversion system. In the voice conversion system, the encoder takes speech instead of text as input, while the decoder is functionally similar to TTS decoder. As we condition the decoder on speaker embedding, the system can be trained on non-parallel data for any-to-any voice conversion. During voice conversion training, we present both text and speech to speech synthesis and voice conversion networks respectively. At run-time, the voice conversion network uses its own encoder-decoder architecture. Experiments show that the proposed approach outperforms two competitive voice conversion baselines consistently, namely phonetic posteriorgram and variational autoencoder methods, in terms of speech quality, naturalness, and speaker similarity.</dcterms:abstract>
+        <dc:date>2021-01-06</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2009.14399</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-15 14:00:41</dcterms:dateSubmitted>
+        <dc:description>arXiv:2009.14399 [eess]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2009.14399</dc:identifier>
+        <prism:number>arXiv:2009.14399</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_294">
+        <rdf:value>Comment: Submitted to IEEE/ACM Transactions on Audio, Speech, and Language Processing</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_292">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/292/Zhang 等 - 2021 - Transfer Learning from Speech Synthesis to Voice Conversion with Non-Parallel Training Data.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2103.00993">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Mingjian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tan</foaf:surname>
+                        <foaf:givenName>Xu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Bohan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Yanqing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qin</foaf:surname>
+                        <foaf:givenName>Tao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhao</foaf:surname>
+                        <foaf:givenName>Sheng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Tie-Yan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_299"/>
+        <link:link rdf:resource="#item_295"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Sound</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Electrical Engineering and Systems Science - Audio and Speech Processing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>AdaSpeech: Adaptive Text to Speech for Custom Voice</dc:title>
+        <dcterms:abstract>Custom voice, a speciﬁc text to speech (TTS) service in commercial speech platforms, aims to adapt a source TTS model to synthesize personal voice for a target speaker using few speech from her/him. Custom voice presents two unique challenges for TTS adaptation: 1) to support diverse customers, the adaptation model needs to handle diverse acoustic conditions which could be very different from source speech data, and 2) to support a large number of customers, the adaptation parameters need to be small enough for each target speaker to reduce memory usage while maintaining high voice quality. In this work, we propose AdaSpeech, an adaptive TTS system for high-quality and efﬁcient customization of new voices. We design several techniques in AdaSpeech to address the two challenges in custom voice: 1) To handle different acoustic conditions, we model the acoustic information in both utterance and phoneme level. Speciﬁcally, we use one acoustic encoder to extract an utterance-level vector and another one to extract a sequence of phoneme-level vectors from the target speech during pre-training and ﬁne-tuning; in inference, we extract the utterance-level vector from a reference speech and use an acoustic predictor to predict the phonemelevel vectors. 2) To better trade off the adaptation parameters and voice quality, we introduce conditional layer normalization in the mel-spectrogram decoder of AdaSpeech, and ﬁne-tune this part in addition to speaker embedding for adaptation. We pre-train the source TTS model on LibriTTS datasets and ﬁne-tune it on VCTK and LJSpeech datasets (with different acoustic conditions from LibriTTS) with few adaptation data, e.g., 20 sentences, about 1 minute speech. Experiment results show that AdaSpeech achieves much better adaptation quality than baseline methods, with only about 5K speciﬁc parameters for each speaker, which demonstrates its effectiveness for custom voice. The audio samples are available at https://speechresearch.github.io/adaspeech/.</dcterms:abstract>
+        <dc:date>2021-03-01</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>AdaSpeech</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2103.00993</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-17 08:01:25</dcterms:dateSubmitted>
+        <dc:description>arXiv:2103.00993 [eess]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2103.00993</dc:identifier>
+        <prism:number>arXiv:2103.00993</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_299">
+       <rdf:value>Comment: Accepted by ICLR 2021</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_295">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/295/Chen 等 - 2021 - AdaSpeech Adaptive Text to Speech for Custom Voice.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:979-8-3503-5084-5">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 979-8-3503-5084-5</dc:identifier>
+                <dc:title>2024 International Conference on Wireless Communications Signal Processing and Networking (WiSPNET)</dc:title>
+                <dc:identifier>DOI 10.1109/WiSPNET61464.2024.10532876</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Chennai, India</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ramu</foaf:surname>
+                        <foaf:givenName>S. China</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saxena</foaf:surname>
+                        <foaf:givenName>Dhruv</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mali</foaf:surname>
+                        <foaf:givenName>Vikram</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_296"/>
+        <dc:title>A Survey on Voice Cloning and Automated Video Dubbing Systems</dc:title>
+        <dcterms:abstract>In the context of today’s interconnected world, where multilingual interactions are commonplace, the need for effective cross-language communication solutions is paramount. This survey explores innovative approaches to multilingual video dubbing, focusing on the integration of voice cloning and neural machine translation techniques for translating and dubbing videos across different languages while maintaining the authenticity of the original speaker’s voice and ensuring seamless lip movement with the source video. Various advanced techniques, including voice cloning, speech emotion recognition, speech-to-lip synchronization, and neural machine translation, are employed in the examined literature. These techniques collectively aim to identify the source language, translate the content, and synthesize the speaker’s voice in the target language that is synchronised with the source video. This survey also delves into the challenges associated with cross-language voice cloning and linguistic translation, exploring the collaborative potential of these technologies within the realm of video dubbing. The overarching goal is to contribute to the accessibility of multimedia content on a global scale, enabling viewers to enjoy videos in their preferred language without compromising the identity of the original speaker. Through comparative analyses of various algorithms, the effectiveness of these approaches in achieving high-quality, linguistically accurate, and emotionally resonant multilingual video dubbing is analyzed.</dcterms:abstract>
+        <dc:date>2024-3-21</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/10532876/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-17 08:01:31</dcterms:dateSubmitted>
+        <dc:rights>https://doi.org/10.15223/policy-029</dc:rights>
+        <bib:pages>1-5</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2024 International Conference on Wireless Communications Signal Processing and Networking (WiSPNET)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_296">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/296/Ramu 等 - 2024 - A Survey on Voice Cloning and Automated Video Dubbing Systems.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-6654-6946-3">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-6654-6946-3</dc:identifier>
+                <dc:title>2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</dc:title>
+                <dc:identifier>DOI 10.1109/CVPR52688.2022.02056</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New Orleans, LA, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Qi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tan</foaf:surname>
+                        <foaf:givenName>Mingkui</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qi</foaf:surname>
+                        <foaf:givenName>Yuankai</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenName>Jiaqiu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Yuanqing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Qi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_297"/>
+        <dc:title>V2C: Visual Voice Cloning</dc:title>
+        <dcterms:abstract>Existing Voice Cloning (VC) tasks aim to convert a paragraph text to a speech with desired voice speciﬁed by a reference audio. This has signiﬁcantly boosted the development of artiﬁcial speech applications. However, there also exist many scenarios that cannot be well reﬂected by these VC tasks, such as movie dubbing, which requires the speech to be with emotions consistent with the movie plots. To ﬁll this gap, in this work we propose a new task named Visual Voice Cloning (V2C), which seeks to convert a paragraph of text to a speech with both desired voice speciﬁed by a reference audio and desired emotion speciﬁed by a reference video. To facilitate research in this ﬁeld, we construct a dataset, V2C-Animation, and propose a strong baseline based on existing state-of-the-art (SoTA) VC techniques. Our dataset contains 10,217 animated movie clips covering a large variety of genres (e.g., Comedy, Fantasy) and emotions (e.g., happy, sad). We further design a set of evaluation metrics, named MCD-DTW-SL, which help evaluate the similarity between ground-truth speeches and the synthesised ones. Extensive experimental results show that even SoTA VC methods cannot generate satisfying speeches for our V2C task. We hope the proposed new task together with the constructed dataset and evaluation metric will facilitate the research in the ﬁeld of voice cloning and broader vision-and-language community. Source code and dataset will be released in https://github.com/chenqi008/V2C.</dcterms:abstract>
+        <dc:date>6/2022</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>V2C</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/9878706/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-17 08:01:36</dcterms:dateSubmitted>
+        <dc:rights>https://doi.org/10.15223/policy-029</dc:rights>
+        <bib:pages>21210-21219</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_297">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/297/Chen 等 - 2022 - V2C Visual Voice Cloning.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
